@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Numbers</title>
+    <script>
+        function Prime(){
+            const lowerNumber=parseInt(prompt('Enter lower number:'));
+            const higherNumber=parseInt(prompt('Enter higher number:'));
+            console.log('The prime number between ${lowerNumber} and ${higherNumber} are:');
+            for (let i = lowerNumber; i <=higherNumber.length; i++){
+                let n=0;
+                for(let j=2;j<i;j++){
+                    if(i%j==0){
+                        n=1;
+                        break;
+                    }
+                }
+            if(i>1&&n==0){
+                console.log(i);
+            }
+              
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="num"></div>
+    <button onclick="prime()">Check prime Numbers</button>
+    
+</body>
+</html>

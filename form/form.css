@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXJB2rkwEA7-3QQgIdhaApLnMlR6EJYvVgXg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    color: white;
+}
+#num1{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 6px;
+    margin-bottom: 20px;
+    color: white;   
+}
+#num2{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 6px;
+    margin-bottom: 20px;
+    color: white;
+}
+.js{
+    background-color: transparent;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 10px;
+    backdrop-filter: blur;
+}
+button{
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 550px;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+

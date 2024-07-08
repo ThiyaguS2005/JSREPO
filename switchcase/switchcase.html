@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwitchCase</title>
+    <script>
+        function change() {
+            switch(season){
+                case"summer":
+                alert("Its sunny outside!");
+                break;
+                case"winter":
+                alert("Its snowy outside!");
+                break;
+                case"rainy":
+                alert("Its raining outside!");
+                break;
+                default:
+                alert("Enter a valid season");
+            }
+        }
+    </script>
+</head>
+<body>
+    <label>Enter Season</label><br>
+    <input type="text" class="text" id="num1"><br>
+    <button onclick="change()">click</button>
+</body>
+</html>

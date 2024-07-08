@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="javascript.css">
+    <script>
+        function func1(){
+            let num1=document.getElementById ("num1").value;
+            if (num1%2==0) {
+                document.write(num1+ " " +"Red");
+            }
+            else{
+                document.write(num1+ " " +"Blue")
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="code">
+    <label>Enter Num1</label>
+    <input type="text" id="num1"><br>
+    <button onclick="func1()" id="button">check</button> 
+</div>
+</div> 
+</body>
+</html>

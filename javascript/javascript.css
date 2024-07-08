@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+}
+.container{
+    top: 35%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.code{
+    padding: 60px 40px 50px 40px;
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid white;
+    backdrop-filter: blur;
+    color: white;
+}
+
