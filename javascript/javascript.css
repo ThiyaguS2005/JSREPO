@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/23/18/30/drop-3698073_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     top: 35%;
@@ -10,11 +12,25 @@ body{
     transform: translate(-50%,-50%);
 }
 .code{
-    padding: 60px 40px 50px 40px;
-    background: transparent;
+    padding: 60px 40px 40px 40px;
+    backdrop-filter: blur(2px);
     border-radius: 15px;
     border: 1px solid white;
     backdrop-filter: blur;
     color: white;
+}
+button{
+   color: white;
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+    padding: 16px;
+    border-radius: 40px;
+    margin-left:100px;
+    margin-top: 40px;
+}
+button:hover{
+    color: blue;
+    background-color: white;
 }
 

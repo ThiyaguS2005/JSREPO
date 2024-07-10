@@ -6,6 +6,7 @@
     <title>SwitchCase</title>
     <script>
         function change() {
+            var season=document.getElementById("season").value;
             switch(season){
                 case"summer":
                 alert("Its sunny outside!");
@@ -24,7 +25,7 @@
 </head>
 <body>
     <label>Enter Season</label><br>
-    <input type="text" class="text" id="num1"><br>
+    <input type="text" class="text" id="season"><br>
     <button onclick="change()">click</button>
 </body>
 </html>
